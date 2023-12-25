@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PaginaPrincipalActivity"
+    android:background="#8BC34A">
+
+    <!-- Bienvenida personalizada -->
+
+    <!-- Logo de la aplicación -->
+    <TextView
+        android:id="@+id/textViewBienvenida"
+        android:layout_width="246dp"
+        android:layout_height="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="288dp"
+        android:gravity="center"
+        android:text="Bienvenido, [Nombre del Usuario]"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp" />
+
+    <!-- Botón para iniciar actividades -->
+
+    <Button
+        android:id="@+id/botonIniciarActividades"
+        android:layout_width="256dp"
+        android:layout_height="165dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="187dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Iniciar Actividades"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageViewSmall"
+        android:layout_width="294dp"
+        android:layout_height="284dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="113dp"
+        android:contentDescription="Descripción de la imagen"
+        android:rotation="-41"
+        android:rotationX="-8"
+        android:rotationY="-12"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/sftch"
+        android:layout_width="320dp"
+        android:layout_height="218dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="Descripción de la imagen"
+        android:rotationX="4"
+        android:rotationY="8"
+        android:src="@drawable/sftsch" />
+
+
+    <!-- Agrega más elementos de interfaz de usuario según sea necesario -->
+
+</RelativeLayout>

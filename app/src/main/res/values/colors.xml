@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <color name="colorMatematicas">#BF3C65</color>
+        <color name="colorCulturaGeneral">#3F51B5</color>
+        <color name="colorIngles">#009688</color>
+        <color name="colorCienciasNaturales">#FFC107</color>
+        <color name="gray">#DBD9D4</color>
+    <color name="caja">#DC85EB</color>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".QuizActivity"
+    android:background="#EB8787"
+    >
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="244dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="79dp"
+        android:background="#C1E3E6"
+        android:gravity="center"
+        android:text="Pregunta aquí"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewQuestion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="84dp"
+        android:backgroundTint="#0D668E"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="203dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="149dp"
+        android:backgroundTint="#DFB842"
+        android:text="Siguiente" />
+
+    <ImageView
+        android:id="@+id/imageViewSmall"
+        android:layout_width="230dp"
+        android:layout_height="226dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="165dp"
+        android:contentDescription="Descripción de la imagen"
+        android:src="@drawable/control" />
+
+
+</RelativeLayout>

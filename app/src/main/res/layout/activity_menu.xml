@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MenuActivity"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:src="@drawable/morado"
+    android:background="#4A97B6"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewSmall"
+        android:layout_width="253dp"
+        android:layout_height="191dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="121dp"
+        android:contentDescription="Descripción de la imagen"
+        android:src="@drawable/kid" />
+
+    <Button
+        android:id="@+id/btnMatematicas"
+        android:layout_width="224dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/colorMatematicas"
+        android:text="Matemáticas"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnCulturaGeneral"
+        android:layout_width="224dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/btnMatematicas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#9FA8DC"
+        android:text="Cultura General"
+        android:textColor="@android:color/black"
+        android:textStyle="italic" />
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/btnIngles"
+        android:layout_width="236dp"
+        android:layout_height="91dp"
+        android:layout_below="@id/btnCulturaGeneral"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/colorIngles"
+        android:text="Inglés"
+        android:textColor="@android:color/black" />
+
+    <!-- Button 4 -->
+    <Button
+        android:id="@+id/btnCienciasNaturales"
+        android:layout_width="238dp"
+        android:layout_height="91dp"
+        android:layout_below="@id/btnIngles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorCienciasNaturales"
+        android:text="Ciencias Naturales"
+        android:textColor="@android:color/black" />
+</RelativeLayout>
